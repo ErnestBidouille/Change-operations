@@ -4,7 +4,7 @@ Projet pour le cours de master 2 webservices / micro services
 
 Ce utilise un submodule : [Currency-exchange-rates](https://github.com/ErnestBidouille/Currency-exchange-rates)
 
-Il necessite docker ainsi que docker-compose pour être tulisé dans les meilleures conditions.
+Il necessite docker ainsi que docker-compose pour être utilisé dans les meilleures conditions.
 
 ## Installation
 
