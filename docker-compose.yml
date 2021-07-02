@@ -9,6 +9,18 @@ services:
       - java-mysql
     depends_on:
       - mysqldb
+      - java-currency-exchange-rates
+
+  java-currency-exchange-rates:
+    build:
+      context: ./Currency-exchange-rates
+    container_name: java-currency-exchange-rates
+    ports:
+      - "8080:8080"
+    networks:
+      - java-mysql
+    depends_on:
+      - mysqldb
  
   mysqldb:
     image: mysql:8

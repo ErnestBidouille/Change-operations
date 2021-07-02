@@ -1,0 +1,3 @@
+[submodule "Currency-exchange-rates"]
+	path = Currency-exchange-rates
+	url = https://github.com/ErnestBidouille/Currency-exchange-rates
