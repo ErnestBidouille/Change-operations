@@ -63,7 +63,7 @@ public class OperationController {
         ObjectMapper mapper = new ObjectMapper();
         OkHttpClient client = new OkHttpClient();
         Request request = new Request.Builder()
-                .url("http://localhost:8080/exchanges/lastExchangeRate?sourceDevise=" + operationBuilder.getSourceDevise() +
+                .url("http://java-currency-exchange-rates:8080/exchanges/lastExchangeRate?sourceDevise=" + operationBuilder.getSourceDevise() +
                         "&destinationDevise=" + operationBuilder.getDestinationDevise())
                 .build();
         try {
